@@ -48,7 +48,7 @@ body.is-loading { overflow:hidden; }               /* bloquea el scroll mientras
           transition:opacity .7s ease, transform .9s cubic-bezier(.7,0,.3,1), filter .7s; }
 #loader.hide { opacity:0; transform:scale(1.15); filter:blur(8px); pointer-events:none; }
 .loader-logo { position:relative; width:112px; height:112px; display:grid; place-items:center; animation:logoIn 1s cubic-bezier(.22,1,.36,1) both; }
-.loader-logo img { width:84px; height:84px; object-fit:cover; border-radius:20px; border:1px solid rgba(0,210,255,.5); animation:logoPulse 2s ease-in-out infinite .9s; }
+.loader-logo img { width:84px; height:84px; object-fit:cover; border-radius:20px; /*border:1px solid rgba(0,210,255,.5);*/ animation:logoPulse 2s ease-in-out infinite .9s; }
 .loader-ring { position:absolute; inset:0; border-radius:50%; border:2px solid transparent; border-top-color:#00d2ff; border-right-color:#7928ca; animation:spin 1.3s linear infinite; }
 .loader-ring.r2 { inset:10px; border-top-color:transparent; border-bottom-color:#0055ff; animation-duration:2s; animation-direction:reverse; }
 .loader-title { font-weight:900; font-size:30px; letter-spacing:.35em; padding-left:.35em; animation:titleIn 1s cubic-bezier(.22,1,.36,1) .4s both; }
